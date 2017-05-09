@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DRC" />
+		<Option makefile="makefile" />
+		<Option pch_mode="0" />
+		<Option default_target="Optimized" />
+		<Option compiler="mingw" />
+		<Build>
+			<Target title="default">
+				<Option output="bin\drc.exe" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="bin" />
+				<Option object_output="bin" />
+				<Option deps_output="bin" />
+				<Option type="1" />
+				<Option compiler="mingw" />
+				<Option projectResourceIncludeDirsRelation="1" />
+			</Target>
+			<Target title="Debug">
+				<Option output="bin\drc.exe" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="bin" />
+				<Option object_output="bin" />
+				<Option deps_output="bin" />
+				<Option type="1" />
+				<Option compiler="mingw" />
+				<Option parameters="--BCInFile=dc.pcm normal-44.1.drc" />
+				<Option projectResourceIncludeDirsRelation="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-DDebugMLeaks" />
+					<Add option="-D_DEBUG_NEW_EMULATE_MALLOC" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\drc.exe" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="bin" />
+				<Option object_output="bin" />
+				<Option deps_output="bin" />
+				<Option type="1" />
+				<Option compiler="mingw" />
+				<Option parameters='--BCInFile=I:\Varie\dc.pcm &quot;I:\Varie\DRC\config\44.1 kHz\normal-44.1.drc&quot;' />
+				<Option projectResourceIncludeDirsRelation="1" />
+				<Compiler>
+					<Add option="-march=pentium3" />
+					<Add option="-O" />
+					<Add option="-mfancy-math-387" />
+					<Add option="-msse" />
+					<Add option="-mfpmath=sse" />
+					<Add option="-mtune=pentium3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Profile">
+				<Option output="bin\drc.exe" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="bin" />
+				<Option object_output="bin" />
+				<Option deps_output="bin" />
+				<Option type="1" />
+				<Option compiler="mingw" />
+				<Option projectResourceIncludeDirsRelation="1" />
+				<Compiler>
+					<Add option="-march=pentium3" />
+					<Add option="-O" />
+					<Add option="-pg" />
+					<Add option="-g" />
+					<Add option="-mfancy-math-387" />
+					<Add option="-msse" />
+					<Add option="-mfpmath=sse" />
+					<Add option="-mtune=pentium3" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg -lgmon" />
+				</Linker>
+			</Target>
+			<Target title="ReleaseDouble">
+				<Option output="bin\drcd.exe" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="bin" />
+				<Option object_output="bin" />
+				<Option deps_output="bin" />
+				<Option type="1" />
+				<Option compiler="mingw" />
+				<Option parameters='--BCInFile=I:\Varie\dc.pcm &quot;I:\Varie\DRC\config\44.1 kHz\normal-44.1.drc&quot;' />
+				<Option projectResourceIncludeDirsRelation="1" />
+				<Compiler>
+					<Add option="-march=pentium4" />
+					<Add option="-O" />
+					<Add option="-mfancy-math-387" />
+					<Add option="-msse2" />
+					<Add option="-mfpmath=sse" />
+					<Add option="-mtune=pentium4" />
+					<Add option="-DUseDouble" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="." />
+			<Add directory="getopt" />
+			<Add directory="MLeaks" />
+		</Compiler>
+		<Linker>
+			<Add option="-static" />
+		</Linker>
+		<Unit filename="MLeaks\debug_new.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="MLeaks\debug_new.h" />
+		<Unit filename="baselib.cpp" />
+		<Unit filename="baselib.h" />
+		<Unit filename="boolean.h" />
+		<Unit filename="bwprefilt.cpp" />
+		<Unit filename="bwprefilt.h" />
+		<Unit filename="cfgparse.cpp" />
+		<Unit filename="cfgparse.h" />
+		<Unit filename="cmdline.cpp" />
+		<Unit filename="cmdline.h" />
+		<Unit filename="config.h" />
+		<Unit filename="config\44.1 kHz\erb-44.1.drc" />
+		<Unit filename="config\44.1 kHz\extreme-44.1.drc" />
+		<Unit filename="config\44.1 kHz\insane-44.1.drc" />
+		<Unit filename="config\44.1 kHz\minimal-44.1.drc" />
+		<Unit filename="config\44.1 kHz\normal-44.1.drc" />
+		<Unit filename="config\44.1 kHz\soft-44.1.drc" />
+		<Unit filename="config\44.1 kHz\strong-44.1.drc" />
+		<Unit filename="config\48.0 kHz\erb-48.0.drc" />
+		<Unit filename="config\48.0 kHz\extreme-48.0.drc" />
+		<Unit filename="config\48.0 kHz\insane-48.0.drc" />
+		<Unit filename="config\48.0 kHz\minimal-48.0.drc" />
+		<Unit filename="config\48.0 kHz\normal-48.0.drc" />
+		<Unit filename="config\48.0 kHz\soft-48.0.drc" />
+		<Unit filename="config\48.0 kHz\strong-48.0.drc" />
+		<Unit filename="config\88.2 kHz\erb-88.2.drc" />
+		<Unit filename="config\88.2 kHz\extreme-88.2.drc" />
+		<Unit filename="config\88.2 kHz\insane-88.2.drc" />
+		<Unit filename="config\88.2 kHz\minimal-88.2.drc" />
+		<Unit filename="config\88.2 kHz\normal-88.2.drc" />
+		<Unit filename="config\88.2 kHz\soft-88.2.drc" />
+		<Unit filename="config\88.2 kHz\strong-88.2.drc" />
+		<Unit filename="config\96.0 kHz\erb-96.0.drc" />
+		<Unit filename="config\96.0 kHz\extreme-96.0.drc" />
+		<Unit filename="config\96.0 kHz\insane-96.0.drc" />
+		<Unit filename="config\96.0 kHz\minimal-96.0.drc" />
+		<Unit filename="config\96.0 kHz\normal-96.0.drc" />
+		<Unit filename="config\96.0 kHz\soft-96.0.drc" />
+		<Unit filename="config\96.0 kHz\strong-96.0.drc" />
+		<Unit filename="convol.cpp" />
+		<Unit filename="convol.h" />
+		<Unit filename="doc\drc-graphs.tex" />
+		<Unit filename="doc\drc.tex" />
+		<Unit filename="drc.cpp" />
+		<Unit filename="drc.h" />
+		<Unit filename="drccfg.cpp" />
+		<Unit filename="drccfg.h" />
+		<Unit filename="dsplib.h" />
+		<Unit filename="dspwind.cpp" />
+		<Unit filename="dspwind.h" />
+		<Unit filename="fft.cpp" />
+		<Unit filename="fft.h" />
+		<Unit filename="fftsg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fftsg.h" />
+		<Unit filename="fir.cpp" />
+		<Unit filename="fir.h" />
+		<Unit filename="getopt\getopt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="getopt\getopt.h" />
+		<Unit filename="getopt\getopt1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gsl\error.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gsl\gsl_fft.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gsl\gsl_fft.h" />
+		<Unit filename="gsl\gsl_fft_complex.h" />
+		<Unit filename="gsl\gsl_fft_complex_float.h" />
+		<Unit filename="gsl\stream.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="hd.cpp" />
+		<Unit filename="hd.h" />
+		<Unit filename="kirkebyfd.cpp" />
+		<Unit filename="kirkebyfd.h" />
+		<Unit filename="level.cpp" />
+		<Unit filename="level.h" />
+		<Unit filename="mic\ecm8000.txt" />
+		<Unit filename="mic\wm-60a.txt" />
+		<Unit filename="mic\wm-61a.txt" />
+		<Unit filename="minIni\minGlue.h" />
+		<Unit filename="minIni\minIni.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="minIni\minIni.h" />
+		<Unit filename="psychoacoustic.cpp" />
+		<Unit filename="psychoacoustic.h" />
+		<Unit filename="slprefilt.cpp" />
+		<Unit filename="slprefilt.h" />
+		<Unit filename="spline.cpp" />
+		<Unit filename="spline.h" />
+		<Unit filename="target\44.1 kHz\bk-2-44.1.txt" />
+		<Unit filename="target\44.1 kHz\bk-2-spline-44.1.txt" />
+		<Unit filename="target\44.1 kHz\bk-2-sub-44.1.txt" />
+		<Unit filename="target\44.1 kHz\bk-2-sub-spline-44.1.txt" />
+		<Unit filename="target\44.1 kHz\bk-3-44.1.txt" />
+		<Unit filename="target\44.1 kHz\bk-3-spline-44.1.txt" />
+		<Unit filename="target\44.1 kHz\bk-3-sub-44.1.txt" />
+		<Unit filename="target\44.1 kHz\bk-3-sub-spline-44.1.txt" />
+		<Unit filename="target\44.1 kHz\bk-3-subultra-spline-44.1.txt" />
+		<Unit filename="target\44.1 kHz\bk-44.1.txt" />
+		<Unit filename="target\44.1 kHz\bk-spline-44.1.txt" />
+		<Unit filename="target\44.1 kHz\bk-sub-44.1.txt" />
+		<Unit filename="target\44.1 kHz\bk-sub-spline-44.1.txt" />
+		<Unit filename="target\44.1 kHz\flat-44.1.txt" />
+		<Unit filename="target\44.1 kHz\pa-44.1.txt" />
+		<Unit filename="target\44.1 kHz\subultra-44.1.txt" />
+		<Unit filename="target\44.1 kHz\ultra-44.1.txt" />
+		<Unit filename="target\48.0 kHz\bk-2-48.0.txt" />
+		<Unit filename="target\48.0 kHz\bk-2-spline-48.0.txt" />
+		<Unit filename="target\48.0 kHz\bk-2-sub-48.0.txt" />
+		<Unit filename="target\48.0 kHz\bk-2-sub-spline-48.0.txt" />
+		<Unit filename="target\48.0 kHz\bk-3-48.0.txt" />
+		<Unit filename="target\48.0 kHz\bk-3-spline-48.0.txt" />
+		<Unit filename="target\48.0 kHz\bk-3-sub-48.0.txt" />
+		<Unit filename="target\48.0 kHz\bk-3-sub-spline-48.0.txt" />
+		<Unit filename="target\48.0 kHz\bk-3-subultra-spline-48.0.txt" />
+		<Unit filename="target\48.0 kHz\bk-48.0.txt" />
+		<Unit filename="target\48.0 kHz\bk-spline-48.0.txt" />
+		<Unit filename="target\48.0 kHz\bk-sub-48.0.txt" />
+		<Unit filename="target\48.0 kHz\bk-sub-spline-48.0.txt" />
+		<Unit filename="target\48.0 kHz\flat-48.0.txt" />
+		<Unit filename="target\48.0 kHz\pa-48.0.txt" />
+		<Unit filename="target\48.0 kHz\subultra-48.0.txt" />
+		<Unit filename="target\48.0 kHz\ultra-48.0.txt" />
+		<Unit filename="target\88.2 kHz\bk-2-88.2.txt" />
+		<Unit filename="target\88.2 kHz\bk-2-spline-88.2.txt" />
+		<Unit filename="target\88.2 kHz\bk-2-sub-88.2.txt" />
+		<Unit filename="target\88.2 kHz\bk-2-sub-spline-88.2.txt" />
+		<Unit filename="target\88.2 kHz\bk-3-88.2.txt" />
+		<Unit filename="target\88.2 kHz\bk-3-spline-88.2.txt" />
+		<Unit filename="target\88.2 kHz\bk-3-sub-88.2.txt" />
+		<Unit filename="target\88.2 kHz\bk-3-sub-spline-88.2.txt" />
+		<Unit filename="target\88.2 kHz\bk-3-subultra-spline-88.2.txt" />
+		<Unit filename="target\88.2 kHz\bk-88.2.txt" />
+		<Unit filename="target\88.2 kHz\bk-spline-88.2.txt" />
+		<Unit filename="target\88.2 kHz\bk-sub-88.2.txt" />
+		<Unit filename="target\88.2 kHz\bk-sub-spline-88.2.txt" />
+		<Unit filename="target\88.2 kHz\flat-88.2.txt" />
+		<Unit filename="target\88.2 kHz\pa-88.2.txt" />
+		<Unit filename="target\88.2 kHz\subultra-88.2.txt" />
+		<Unit filename="target\88.2 kHz\ultra-88.2.txt" />
+		<Unit filename="target\96.0 kHz\bk-2-96.0.txt" />
+		<Unit filename="target\96.0 kHz\bk-2-spline-96.0.txt" />
+		<Unit filename="target\96.0 kHz\bk-2-sub-96.0.txt" />
+		<Unit filename="target\96.0 kHz\bk-2-sub-spline-96.0.txt" />
+		<Unit filename="target\96.0 kHz\bk-3-96.0.txt" />
+		<Unit filename="target\96.0 kHz\bk-3-spline-96.0.txt" />
+		<Unit filename="target\96.0 kHz\bk-3-sub-96.0.txt" />
+		<Unit filename="target\96.0 kHz\bk-3-sub-spline-96.0.txt" />
+		<Unit filename="target\96.0 kHz\bk-3-subultra-spline-96.0.txt" />
+		<Unit filename="target\96.0 kHz\bk-96.0.txt" />
+		<Unit filename="target\96.0 kHz\bk-spline-96.0.txt" />
+		<Unit filename="target\96.0 kHz\bk-sub-96.0.txt" />
+		<Unit filename="target\96.0 kHz\bk-sub-spline-96.0.txt" />
+		<Unit filename="target\96.0 kHz\flat-96.0.txt" />
+		<Unit filename="target\96.0 kHz\pa-96.0.txt" />
+		<Unit filename="target\96.0 kHz\subultra-96.0.txt" />
+		<Unit filename="target\96.0 kHz\ultra-96.0.txt" />
+		<Unit filename="test\cfgtest.bat" />
+		<Unit filename="test\cfgtest.sh" />
+		<Unit filename="toeplitz.cpp" />
+		<Unit filename="toeplitz.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

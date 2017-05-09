@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="MLeaks\debug_new.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="16506" topLine="516" />
+	</File>
+	<File name="MLeaks\debug_new.h" open="0" top="0" tabpos="0">
+		<Cursor position="3974" topLine="145" />
+	</File>
+	<File name="baselib.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="958" topLine="21" />
+	</File>
+	<File name="baselib.h" open="0" top="0" tabpos="0">
+		<Cursor position="959" topLine="4" />
+	</File>
+	<File name="boolean.h" open="0" top="0" tabpos="0">
+		<Cursor position="959" topLine="4" />
+	</File>
+	<File name="bwprefilt.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="959" topLine="12" />
+	</File>
+	<File name="bwprefilt.h" open="0" top="0" tabpos="0">
+		<Cursor position="1037" topLine="5" />
+	</File>
+	<File name="cfgparse.h" open="0" top="0" tabpos="1">
+		<Cursor position="1986" topLine="45" />
+	</File>
+	<File name="cmdline.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="958" topLine="4" />
+	</File>
+	<File name="cmdline.h" open="0" top="0" tabpos="2">
+		<Cursor position="1153" topLine="26" />
+	</File>
+	<File name="config.h" open="0" top="0" tabpos="0">
+		<Cursor position="26" topLine="0" />
+	</File>
+	<File name="config\44.1 kHz\erb-44.1.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3646" topLine="149" />
+	</File>
+	<File name="config\44.1 kHz\extreme-44.1.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3382" topLine="143" />
+	</File>
+	<File name="config\44.1 kHz\insane-44.1.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3446" topLine="144" />
+	</File>
+	<File name="config\44.1 kHz\minimal-44.1.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3379" topLine="143" />
+	</File>
+	<File name="config\44.1 kHz\normal-44.1.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3245" topLine="143" />
+	</File>
+	<File name="config\44.1 kHz\soft-44.1.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3376" topLine="143" />
+	</File>
+	<File name="config\44.1 kHz\strong-44.1.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3373" topLine="143" />
+	</File>
+	<File name="config\48.0 kHz\erb-48.0.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3647" topLine="149" />
+	</File>
+	<File name="config\48.0 kHz\extreme-48.0.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3382" topLine="143" />
+	</File>
+	<File name="config\48.0 kHz\insane-48.0.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3446" topLine="144" />
+	</File>
+	<File name="config\48.0 kHz\minimal-48.0.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3379" topLine="143" />
+	</File>
+	<File name="config\48.0 kHz\normal-48.0.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3375" topLine="143" />
+	</File>
+	<File name="config\48.0 kHz\soft-48.0.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3376" topLine="143" />
+	</File>
+	<File name="config\48.0 kHz\strong-48.0.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3373" topLine="143" />
+	</File>
+	<File name="config\88.2 kHz\extreme-88.2.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3392" topLine="146" />
+	</File>
+	<File name="config\88.2 kHz\insane-88.2.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3452" topLine="144" />
+	</File>
+	<File name="config\88.2 kHz\minimal-88.2.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3385" topLine="143" />
+	</File>
+	<File name="config\88.2 kHz\normal-88.2.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3380" topLine="143" />
+	</File>
+	<File name="config\88.2 kHz\strong-88.2.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3378" topLine="143" />
+	</File>
+	<File name="config\96.0 kHz\erb-96.0.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3654" topLine="149" />
+	</File>
+	<File name="config\96.0 kHz\extreme-96.0.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3392" topLine="143" />
+	</File>
+	<File name="config\96.0 kHz\insane-96.0.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3450" topLine="144" />
+	</File>
+	<File name="config\96.0 kHz\minimal-96.0.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3385" topLine="143" />
+	</File>
+	<File name="config\96.0 kHz\normal-96.0.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3380" topLine="143" />
+	</File>
+	<File name="config\96.0 kHz\soft-96.0.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3382" topLine="143" />
+	</File>
+	<File name="config\96.0 kHz\strong-96.0.drc" open="0" top="0" tabpos="0">
+		<Cursor position="3384" topLine="143" />
+	</File>
+	<File name="convol.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="959" topLine="4" />
+	</File>
+	<File name="convol.h" open="0" top="0" tabpos="0">
+		<Cursor position="959" topLine="4" />
+	</File>
+	<File name="doc\drc-graphs.tex" open="0" top="0" tabpos="0">
+		<Cursor position="63" topLine="48" />
+	</File>
+	<File name="doc\drc.tex" open="0" top="0" tabpos="0">
+		<Cursor position="3174" topLine="86" />
+	</File>
+	<File name="drc.cpp" open="1" top="1" tabpos="2">
+		<Cursor position="1908" topLine="49" />
+	</File>
+	<File name="drc.h" open="1" top="0" tabpos="1">
+		<Cursor position="1719" topLine="30" />
+	</File>
+	<File name="drccfg.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="30404" topLine="806" />
+	</File>
+	<File name="drccfg.h" open="0" top="0" tabpos="3">
+		<Cursor position="958" topLine="4" />
+	</File>
+	<File name="dsplib.h" open="0" top="0" tabpos="0">
+		<Cursor position="959" topLine="4" />
+	</File>
+	<File name="dspwind.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="959" topLine="4" />
+	</File>
+	<File name="dspwind.h" open="0" top="0" tabpos="0">
+		<Cursor position="959" topLine="4" />
+	</File>
+	<File name="fft.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1037" topLine="5" />
+	</File>
+	<File name="fft.h" open="0" top="0" tabpos="0">
+		<Cursor position="959" topLine="4" />
+	</File>
+	<File name="fftsg.c" open="0" top="0" tabpos="0">
+		<Cursor position="2900" topLine="79" />
+	</File>
+	<File name="fftsg.h" open="0" top="0" tabpos="0">
+		<Cursor position="465" topLine="3" />
+	</File>
+	<File name="fir.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="959" topLine="4" />
+	</File>
+	<File name="fir.h" open="0" top="0" tabpos="0">
+		<Cursor position="959" topLine="4" />
+	</File>
+	<File name="getopt\getopt.c" open="0" top="0" tabpos="0">
+		<Cursor position="22380" topLine="689" />
+	</File>
+	<File name="getopt\getopt1.c" open="0" top="0" tabpos="0">
+		<Cursor position="3380" topLine="97" />
+	</File>
+	<File name="hd.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="959" topLine="4" />
+	</File>
+	<File name="hd.h" open="0" top="0" tabpos="0">
+		<Cursor position="959" topLine="4" />
+	</File>
+	<File name="kirkebyfd.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="18428" topLine="629" />
+	</File>
+	<File name="kirkebyfd.h" open="0" top="0" tabpos="0">
+		<Cursor position="959" topLine="4" />
+	</File>
+	<File name="level.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="959" topLine="4" />
+	</File>
+	<File name="level.h" open="0" top="0" tabpos="2">
+		<Cursor position="959" topLine="4" />
+	</File>
+	<File name="minIni\minGlue.h" open="0" top="0" tabpos="9">
+		<Cursor position="1899" topLine="13" />
+	</File>
+	<File name="minIni\minIni.c" open="0" top="0" tabpos="8">
+		<Cursor position="22749" topLine="649" />
+	</File>
+	<File name="minIni\minIni.h" open="0" top="0" tabpos="4">
+		<Cursor position="1049" topLine="9" />
+	</File>
+	<File name="psychoacoustic.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="3211" topLine="99" />
+	</File>
+	<File name="psychoacoustic.h" open="0" top="0" tabpos="5">
+		<Cursor position="1037" topLine="5" />
+	</File>
+	<File name="slprefilt.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="13827" topLine="339" />
+	</File>
+	<File name="slprefilt.h" open="0" top="0" tabpos="0">
+		<Cursor position="959" topLine="4" />
+	</File>
+	<File name="spline.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="958" topLine="4" />
+	</File>
+	<File name="spline.h" open="0" top="0" tabpos="2">
+		<Cursor position="958" topLine="4" />
+	</File>
+	<File name="target\44.1 kHz\pa-44.1.txt" open="0" top="0" tabpos="0">
+		<Cursor position="68" topLine="0" />
+	</File>
+	<File name="target\48.0 kHz\pa-48.0.txt" open="0" top="0" tabpos="0">
+		<Cursor position="68" topLine="0" />
+	</File>
+	<File name="target\88.2 kHz\pa-88.2.txt" open="0" top="0" tabpos="0">
+		<Cursor position="68" topLine="0" />
+	</File>
+	<File name="target\96.0 kHz\pa-96.0.txt" open="0" top="0" tabpos="0">
+		<Cursor position="68" topLine="0" />
+	</File>
+	<File name="toeplitz.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="959" topLine="4" />
+	</File>
+	<File name="toeplitz.h" open="0" top="0" tabpos="0">
+		<Cursor position="959" topLine="2" />
+	</File>
+</CodeBlocks_layout_file>

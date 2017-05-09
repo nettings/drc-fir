@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GLSweep" />
+		<Option makefile="makefile" />
+		<Option pch_mode="0" />
+		<Option compiler="mingw" />
+		<Build>
+			<Target title="default">
+				<Option output="bin\glsweep.exe" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="bin" />
+				<Option object_output="bin" />
+				<Option deps_output="bin" />
+				<Option type="1" />
+				<Option compiler="mingw" />
+				<Option projectResourceIncludeDirsRelation="1" />
+			</Target>
+			<Target title="Debug">
+				<Option output="bin\glsweep.exe" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="bin" />
+				<Option object_output="bin" />
+				<Option deps_output="bin" />
+				<Option type="1" />
+				<Option compiler="mingw" />
+				<Option projectResourceIncludeDirsRelation="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\glsweep.exe" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="C:\Tmp\Sweep" />
+				<Option object_output="bin" />
+				<Option deps_output="bin" />
+				<Option type="1" />
+				<Option compiler="mingw" />
+				<Option parameters="44100 1 1 22050 45 2 0.05 0.005 sw.pcm iv.pcm" />
+				<Option projectResourceIncludeDirsRelation="1" />
+				<Compiler>
+					<Add option="-march=i586" />
+					<Add option="-O" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="Release;" />
+		</VirtualTargets>
+		<Linker>
+			<Add option="-static" />
+		</Linker>
+		<Unit filename="glsweep.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

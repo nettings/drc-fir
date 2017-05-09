@@ -1,0 +1,534 @@
+% DRC: Digital Room Correction
+% Graph packaging LaTeX script
+%
+% Copyright (C) 2005 Michele Spinolo
+% Copyright (C) 2005 Denis sbragion
+%
+% This program is free software; you can redistribute it and/or modify
+% it under the terms of the GNU General Public License as published by
+% the Free Software Foundation; either version 2 of the License, or
+% (at your option) any later version.
+%
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+% GNU General Public License for more details.
+%
+% You should have received a copy of the GNU General Public License
+% along with this program; if not, write to the Free Software
+% Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+%
+% You can contact the author on Internet at the following address:
+%
+%		michele.spinolo@tin.it
+
+\documentclass[a4paper,titlepage]{article}
+
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{tocloft}
+\usepackage[colorlinks=true,pdfstartview=FitH,bookmarks=true,
+	bookmarksnumbered,pdfpagemode=None,plainpages=false,
+	pdfpagelabels,a4paper,linktocpage]{hyperref}
+	
+% Figure names prefix
+\newcommand{\pctprefix}{T}
+
+% Figures width
+\newcommand{\pctwidth}{1.0}
+
+% Replace with your title and name	
+\title{DRC Graphs}
+\author{Michele Spinolo} 
+
+\begin{document}
+
+\pagenumbering{roman}
+\begin{titlepage}
+\maketitle\thispagestyle{empty}
+\end{titlepage}
+
+\pagenumbering{arabic}
+\clearpage
+\listoffigures 
+
+%IR Full range
+
+\clearpage
+
+\begin{figure}
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-IRStepResponse}
+\caption{Full range step response.} 
+\end{center}
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-IRFullRange}
+\caption{Full range impulse  response.}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\clearpage
+
+\begin{figure}
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-IRFullRangeEnvelope}
+\caption{Full range impulse  response  envelope.}
+\end{center}
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-IRFullRangeETC}
+\caption{Full range time-energy response (impulse  response envelope plotted with a
+logarithmic magnitude scale).}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\clearpage
+
+%IR 2kHz Brickwall
+
+\begin{figure}
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-IR2kHzBrickwall}
+\caption{Impulse  response  brickwall  filtered  at 2 kHz.}
+\end{center}
+\end{minipage}
+
+
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-IR2kHzBrickwallEnvelope}
+\caption{Impulse  response  envelope brickwall  filtered at 2 kHz.}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\clearpage
+
+\begin{figure}
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-IR2kHzBrickwallETC}
+\caption{Time-energy response (impulse  response envelope plotted with a
+logarithmic magnitude scale) brickwall filtered at 2 kHz.}
+\end{center}
+\end{minipage}
+
+%IR 200Hz Brickwall
+
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-IR200HzBrickwall}
+\caption{Impulse  response brickwall  filtered at 200  Hz.}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\clearpage
+
+\begin{figure}
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-IR200HzBrickwallEnvelope}
+\caption{Impulse  response  envelope brickwall filtered at 200 Hz.}
+\end{center}
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-IR200HzBrickwallETC}
+\caption{Time-energy response (impulse  response envelope plotted with a
+logarithmic magnitude scale) brickwall filtered at 200 Hz.}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\clearpage
+
+%Magnitude response
+
+\begin{figure}
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-MRUnsmoothed1ms}
+\caption{Unsmoothed frequency response  magnitude, 1 ms Blackman window.
+These graphs show the frequency  response of the early direct sound.}
+\end{center}
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-MRUnsmoothed5ms}
+\caption{Unsmoothed frequency response  magnitude, 5 ms Blackman window.
+These graphs show the frequency response of the direct sound.}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\clearpage
+
+\begin{figure}
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-MRUnsmoothed200ms}
+\caption{Unsmoothed  frequency  response  magnitude, bass  range, 200 ms
+Blackman window.  These graphs show  the frequency  response of the bass
+range over a 200 ms time  window.}
+\end{center}
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-MRFDWSmoothed}
+\caption{Frequency    response  magnitude   smoothed  using a  frequency
+dependent windowing with  windowing settings close  to those used by the
+normal.drc sample configuration file.}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\clearpage
+
+\begin{figure}
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-MRFDWSmoothed-1-6}
+\caption{Frequency    response  magnitude   smoothed  using a  frequency
+dependent  windowing providing  a frequency  resolution  close to 1/6 of
+octave smoothing.}
+\end{center}
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-MRFDWSmoothed-1-3}
+\caption{Frequency    response  magnitude   smoothed  using a  frequency
+dependent  windowing providing  a frequency  resolution  close to 1/3 of
+octave smoothing.}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\clearpage
+
+\begin{figure}
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-MRBarkSmoothed}
+\caption{Frequency response magnitude smoothed over the Bark 
+psychoacoustic scale with many different Blackman windows applied.} 
+\end{center}
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-MRERBSmoothed}
+\caption{Frequency response magnitude smoothed over the ERB 
+psychoacoustic scale with many different Blackman windows applied.} 
+\end{center}
+\end{minipage}
+\end{figure}
+
+\clearpage
+
+%Phase response
+
+\begin{figure}
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-PRUnsmoothed1ms}
+\caption{Unsmoothed   phase response,  1 ms  Blackman window.}
+\end{center}
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-PRUnsmoothed5ms}
+\caption{Unsmoothed phase response,  5 ms Blackman window.}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\clearpage
+
+\begin{figure}
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-PRUnsmoothed200ms}
+\caption{Unsmoothed phase response, bass range, 200 ms Blackman window.}
+\end{center}
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-PRFDWSmoothed}
+\caption{Phase response  smoothed using a frequency  dependent windowing
+with windowing  settings close  to those  used by the  normal.drc sample
+configuration file.}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\clearpage
+
+\begin{figure}
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-PRFDWSmoothed-1-6}
+\caption{Phase response  magnitude smoothed using  a frequency dependent
+windowing  providing  a  frequency  resolution  close  to 1/6  of octave
+smoothing.}
+\end{center}
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-PRFDWSmoothed-1-3}
+\caption{Phase response  magnitude smoothed using  a frequency dependent
+windowing  providing  a  frequency  resolution  close  to 1/3  of octave
+smoothing.}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\clearpage
+
+% Time-frequency analysis
+
+\begin{figure}
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-SDHighRange}
+\caption{Spectral decay, high range. Spectral decay from 2 kHz to 20 kHz
+with a 0.5 ms sliding Blackman window.}
+\end{center}
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-SFHighRange}
+\caption{Spectral formation,  high range. Spectral  formation from 2 kHz
+to 20 kHz with a 0.5 ms sliding Blackman window.}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\clearpage
+
+\begin{figure}
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-SDMidRange}
+\caption{Spectral decay,  mid range. Spectral  decay from 200 Hz to 2000
+Hz with a 5 ms sliding Blackman window.}
+\end{center}
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-SFMidRange}
+\caption{Spectral formation,  mid range. Spectral  formation from 200 Hz
+to 2000 Hz with a 5 ms sliding Blackman window.}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\clearpage
+
+\begin{figure}
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-SDBassRange}
+\caption{Spectral decay, bass range. Spectral decay from 20 Hz to 200 Hz
+with a 50 ms sliding Blackman window.}
+\end{center}
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-SFBassRange}
+\caption{Spectral formation,  bass range. Spectral  formation from 20 Hz
+to 200 Hz with a 50 ms sliding Blackman window.}
+\end{center}
+\end{minipage}
+\end{figure}
+
+% Time-frequency analysis, wider windows
+
+\begin{figure}
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-SDHighRangeW}
+\caption{Spectral decay, high range. Spectral decay from 2 kHz to 20 kHz
+with a 1.0 ms sliding Blackman window.}
+\end{center}
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-SFHighRangeW}
+\caption{Spectral formation,  high range. Spectral  formation from 2 kHz
+to 20 kHz with a 1.0 ms sliding Blackman window.}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\clearpage
+
+\begin{figure}
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-SDMidRangeW}
+\caption{Spectral decay,  mid range. Spectral  decay from 200 Hz to 2000
+Hz with a 10 ms sliding Blackman window.}
+\end{center}
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-SFMidRangeW}
+\caption{Spectral formation,  mid range. Spectral  formation from 200 Hz
+to 2000 Hz with a 10 ms sliding Blackman window.}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\clearpage
+
+\begin{figure}
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-SDBassRangeW}
+\caption{Spectral decay, bass range. Spectral decay from 20 Hz to 200 Hz
+with a 100 ms sliding Blackman window.}
+\end{center}
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-SFBassRangeW}
+\caption{Spectral formation,  bass range. Spectral  formation from 20 Hz
+to 200 Hz with a 100 ms sliding Blackman window.}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\begin{figure}
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-Spectrogram01ms}
+\caption{High   resolution   spectrograms  from  -10 ms  to 40  ms, 1 ms
+Blackman window,  60 dB level range.  The frequency  range is from DC to
+Nyquist (22050 Hz) on a linear scale.}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\begin{figure}
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-Spectrogram20ms}
+\caption{High  resolution  spectrograms  from  -100 ms to 400  ms, 20 ms
+Blackman window,  60 dB level range.  The frequency  range is from DC to
+Nyquist (22050 Hz) on a linear scale.}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\clearpage
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-MorletScalogramHTRENVSD}
+\caption{Morlet cycle-octave scalogram envelope, high time resolution, spectral decay.}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-MorletScalogramHTRENVSF}
+\caption{Morlet cycle-octave scalogram envelope, high time resolution, spectral formation.}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-MorletScalogramHTRENVMap}
+\caption{Morlet cycle-octave scalogram envelope, high time resolution, colored map.}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-MorletScalogramHTRETCSD}
+\caption{Morlet cycle-octave scalogram ETC, high time resolution, spectral decay.}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-MorletScalogramHTRETCSF}
+\caption{Morlet cycle-octave scalogram ETC, high time resolution, spectral formation.}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-MorletScalogramHTRETCMap}
+\caption{Morlet cycle-octave scalogram ETC, high time resolution, colored map.}
+\end{center}
+\end{figure}
+
+\clearpage
+\begin{figure}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-MorletScalogramMTRENVSD}
+\caption{Morlet cycle-octave scalogram envelope, medium time resolution, spectral decay.}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-MorletScalogramMTRENVSF}
+\caption{Morlet cycle-octave scalogram envelope, medium time resolution, spectral formation.}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-MorletScalogramMTRENVMap}
+\caption{Morlet cycle-octave scalogram envelope, medium time resolution, colored map.}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-MorletScalogramMTRETCSD}
+\caption{Morlet cycle-octave scalogram ETC, medium time resolution, spectral decay.}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-MorletScalogramMTRETCSF}
+\caption{Morlet cycle-octave scalogram ETC, medium time resolution, spectral formation.}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=\pctwidth\textwidth,keepaspectratio]{\pctprefix-MorletScalogramMTRETCMap}
+\caption{Morlet cycle-octave scalogram ETC, medium time resolution, colored map.}
+\end{center}
+\end{figure}
+
+\end{document}

@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1125668174 d:\denis\drc\lsconv.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"fftsg_h.h"
+
+1117804148 d:\denis\drc\fftsg_h.h
+
+1117804148 d:\denis\drc\fftsg_h.c
+	"fftsg_h.h"
+	<math.h>
+	<pthread.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1134661926 source:i:\varie\room\drc\lsconv.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"fftsg_h.h"
+
+1134661926 i:\varie\room\drc\fftsg_h.h
+
+1134661926 source:i:\varie\room\drc\fftsg_h.c
+	"fftsg_h.h"
+	<math.h>
+	<pthread.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1134661926 source:i:\varie\drc\fftsg_h.c
+	"fftsg_h.h"
+	<math.h>
+	<pthread.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1262687198 i:\varie\drc\fftsg_h.h
+
+1322753167 source:i:\varie\drc\lsconv.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"fftsg_h.h"
+

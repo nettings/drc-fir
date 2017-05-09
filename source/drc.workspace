@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="DRC">
+		<Project filename="drc.cbp" active="1" />
+		<Project filename="glsweep.cbp" />
+		<Project filename="lsconv.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

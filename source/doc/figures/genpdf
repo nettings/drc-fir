@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Create the pdf version of all eps files
+for file in *.eps
+do
+	pdffile=`basename "$file" .eps`
+	echo "$file" '->' "${pdffile}.pdf"
+	epstopdf -nogs "$file" | ps2pdf -dAutoFilterColorImages=false -dColorImageFilter=/FlateEncode -dPDFSETTINGS=/prepress -dColorImageResolution=600 -dGrayImageResolution=600 - ${pdffile}.pdf
+done

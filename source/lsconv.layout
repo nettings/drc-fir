@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="fftsg_h.c" open="0" top="0" tabpos="0">
+		<Cursor position="2246" topLine="69" />
+	</File>
+	<File name="fftsg_h.h" open="0" top="0" tabpos="0">
+		<Cursor position="536" topLine="9" />
+	</File>
+	<File name="lsconv.c" open="0" top="0" tabpos="0">
+		<Cursor position="958" topLine="4" />
+	</File>
+</CodeBlocks_layout_file>

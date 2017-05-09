@@ -1,0 +1,16 @@
+Begin4
+Title: DRC: Digital Room Correction 
+Version: 3.2.1
+Entered-date: 2012-10-01
+Description: DRC generates digital room correction FIR filters to be used
+             within HiFi systems in conjunction with real time convolution
+             engines like BruteFIR.
+Keywords: digital room correction, real time equalization, fir filters 
+Author: d.sbragion@infotecna.it (Denis Sbragion) 
+Maintained-by: d.sbragion@infotecna.it (Denis Sbragion), nettings@stackingdwarves.net (Jörn Nettingsmeier)
+Primary-site: http://drc-fir.sourceforge.net
+Alternate-site: http://github.com/nettings/drc-fir
+Original-site:  
+Platforms: Linux, POSIX, Win32 
+Copying-policy: GPL
+End
