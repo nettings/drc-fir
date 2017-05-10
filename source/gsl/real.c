@@ -1,13 +1,13 @@
-#include <config.h>
+#include "config.h"
 #include <stddef.h>
 #include <stdlib.h>
 #include <math.h>
 
-#include <gsl/gsl_errno.h>
-#include <gsl/gsl_complex.h>
+#include "gsl_errno.h"
+#include "gsl_complex.h"
 
-#include <gsl/gsl_fft_real.h>
-#include <gsl/gsl_fft_real_float.h>
+#include "gsl_fft_real.h"
+#include "gsl_fft_real_float.h"
 
 #define BASE_DOUBLE
 #include "templates_on.h"

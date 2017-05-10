@@ -21,7 +21,7 @@ CC=g++
 
 # Pentium 3 or greater optimizaztions settings with SSE support
 # Be careful: -mfpmath=sse sometimes causes accuracy problems
-CFLAGS=-march=pentium3 -O -s -mfancy-math-387 -msse -mfpmath=sse -mtune=pentium3 -I. 
+# CFLAGS=-march=pentium3 -O -s -mfancy-math-387 -msse -mfpmath=sse -mtune=pentium3 -I. 
 
 # Same as above, but tested on recent Mac OS X
 # Be careful: -mfpmath=sse sometimes causes accuracy problems
@@ -32,6 +32,11 @@ CFLAGS=-march=pentium3 -O -s -mfancy-math-387 -msse -mfpmath=sse -mtune=pentium3
 
 # Vectorization settings (GCC 4 Only, experimental)
 # CFLAGS=-march=pentium3 -O3 -s -pg -g -mfancy-math-387 -msse -mfpmath=sse -mtune=pentium3 -ftree-vectorize -ftree-vectorizer-verbose=2 -I. 
+
+# Let the compiler decide on modern systems:
+CFLAGS =  -march=native 
+CFLAGS += -O3 -s -msse3 -ftree-vectorize
+#CFLAGS += -pg -g # profiling
 
 # GLSweep optimization settings
 # GLSweep doesn't need SSE based optimization settings

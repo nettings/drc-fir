@@ -17,9 +17,9 @@
  * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#include <config.h>
-#include <gsl/gsl_errno.h>
-#include <gsl/gsl_fft_complex.h>
+#include "config.h"
+#include "gsl_errno.h"
+#include "gsl_fft_complex.h"
 
 #include "factorize.h"
 

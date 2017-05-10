@@ -17,13 +17,13 @@
  * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#include <config.h>
+#include "config.h"
 #include <stdlib.h>
 #include <math.h>
 
-#include <gsl/gsl_errno.h>
-#include <gsl/gsl_complex.h>
-#include <gsl/gsl_fft_real.h>
+#include "gsl_errno.h"
+#include "gsl_complex.h"
+#include "gsl_fft_real.h"
 
 #include "real_pass.h"
 

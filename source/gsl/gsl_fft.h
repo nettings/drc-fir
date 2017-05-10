@@ -20,7 +20,7 @@
 #ifndef __GSL_FFT_H__
 #define __GSL_FFT_H__
 
-#include <gsl/gsl_complex.h>
+#include "gsl_complex.h"
 
 #undef __BEGIN_DECLS
 #undef __END_DECLS

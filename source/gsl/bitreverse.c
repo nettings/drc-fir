@@ -17,8 +17,8 @@
  * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#include <config.h>
-#include <gsl/gsl_fft.h>
+#include "config.h"
+#include "gsl_fft.h"
 
 #include "complex_internal.h"
 #include "bitreverse.h"
