@@ -3,8 +3,8 @@ drc-fir
 
 a fork of Denis Sbragion's amazing room equalization toolkit
 
-Copyright (C) 2002-2011 Denis Sbragion
-Gitification and minor build fixes (C) 2017 Jörn Nettingsmeier
+Copyright (C) 2002-2011 Denis Sbragion.  
+Gitification and minor build fixes (C) 2017 Jörn Nettingsmeier.
 
 You can contact the original author at <d.sbragion@infotecna.it>.
 
