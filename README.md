@@ -11,7 +11,8 @@ You can contact the original author at <d.sbragion@infotecna.it>.
 For problems with this particular fork, please use the github 
 issue tracker or contact <nettings@stackingdwarves.net>.
 
-All the documentation for DRC is under the [doc subdirectory](doc/drc.html).
+All the documentation for DRC is under the [doc
+subdirectory](https://rawgit.com/nettings/drc-fir/master/doc/drc.html).
 
 The official DRC home page (now slightly out of maintenance) is at
 <http://drc-fir.sourceforge.net>.
