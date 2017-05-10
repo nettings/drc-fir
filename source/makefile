@@ -1,7 +1,7 @@
 # DRC base makefile
 
 # DRC version
-VERSION=3.2.1
+VERSION=3.2.1-1JN
 
 # Where to install
 INSTALL_PREFIX=$(DESTDIR)/usr/local
@@ -46,7 +46,6 @@ GLSCFLAGS=-O -s -I.
 
 # Warning check pedantic settings
 # CFLAGS=-Wall -pedantic -I.
-
 # Profiling settings
 # CFLAGS=-march=pentium3 -O -pg -g -mfancy-math-387 -msse -mfpmath=sse -mtune=pentium3 -I. 
 
