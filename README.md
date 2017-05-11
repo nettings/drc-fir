@@ -1,7 +1,7 @@
 drc-fir
 =======
 
-a fork of Denis Sbragion's amazing room equalization toolkit
+A github fork of Denis Sbragion's amazing room equalization toolkit.
 
 Copyright (C) 2002-2011 Denis Sbragion.  
 Gitification and minor build fixes (C) 2017 Jörn Nettingsmeier.
@@ -19,9 +19,10 @@ The official DRC home page (now slightly out of maintenance) is at
 
 The reason for this fork is not to usurp a great piece of software,
 but rather to make my own compile fixes available to others and 
-prevent drc-fir from succumbing to bit-rot. If you like this software,
+serve as a patch collection point between releases. If you like this software,
 please write to Denis. If you wish to make a donation to the original
 author, you can do so at his
 [sourceforge project page](http://sourceforge.net/donate/index.php?group_id=136217).
-I will try to get my fixes upstream every once in a while, so that this fork
-doesn't take on a life of its own.
+I will try to get the fixes collected here upstream every once in a while, 
+so that this fork doesn't take on a life of its own. Contributions are
+welcome.
